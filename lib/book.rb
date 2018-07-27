@@ -26,7 +26,6 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
-  
 end
 
 and_then_there_were_none = Book.new("And Then THere Were None")
