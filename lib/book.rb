@@ -4,6 +4,14 @@ class Book
   def initialize(title)
     @title = title
   end
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
+end
+
+and_then_there_were_none = Book.new("And Then THere Were None")
+
+
   # def title
   #   @title
   # end
@@ -25,9 +33,3 @@ class Book
   # def genre
   #   @genre
   # end
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
-end
-
-and_then_there_were_none = Book.new("And Then THere Were None")
