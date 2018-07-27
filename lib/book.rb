@@ -23,6 +23,8 @@ class Book
   def genre
     @genre
   end
+  
+  
 end
 
 and_then_there_were_none = Book.new("And Then THere Were None")
